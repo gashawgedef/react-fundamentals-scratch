@@ -3,6 +3,7 @@ import './App.css';
 import Great from './components/Great';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Gallery from './components/Profile';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Great/>
       <Welcome/>
       <Hello/>
+      <Gallery/>
+    
     </div>
   );
 }
