@@ -6,9 +6,19 @@ class Message extends Component{
             'message':'Welcome Gashaw Gedef Shibabaw'
         }
     }
+    changeMessage(){
+        this.setState({
+            message:'Thank you for subscribing'
+        
+        })
+    }
     render(){
         return (
-        <h1>{this.state.message}</h1>
+            <div>
+                <h1>{this.state.message}</h1>
+                <button onClick={()=>this.changeMessage()}>Subscribe</button>
+            </div>
+        
         )
     } 
 }
