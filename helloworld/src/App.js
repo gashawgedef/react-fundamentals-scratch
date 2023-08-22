@@ -8,10 +8,18 @@ import Gallery from './components/Profile';
 function App() {
   return (
     <div className="App">
-      <Great/>
-      <Welcome/>
+      <Great name="Gashaw Gedef " address="Addis Ababa" >
+      <p>This is Children</p>
+      </Great>
+      <Great name="Shibabaw " address="Gondar, Ethiopia">
+        this is children two
+      </Great>
+      <Great name="Tadege " address="Debre Birhan">
+      this is children three
+      </Great>
+      {/* <Welcome/>
       <Hello/>
-      <Gallery/>
+      <Gallery/> */}
     
     </div>
   );
