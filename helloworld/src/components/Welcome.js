@@ -1,8 +1,13 @@
 
 import React,{Component} from "react";
 class Welcome extends Component{
+    
     render(){
-        return <h1>Welcome {this.props.name} to {this.props.address}</h1>
+        const {name,address}=this.props
+        return(
+
+        <h1>Welcome {name} to {address}</h1>
+        )
     } 
 }
 
