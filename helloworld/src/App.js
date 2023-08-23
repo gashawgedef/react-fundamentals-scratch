@@ -5,6 +5,7 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Gallery from './components/Profile';
 import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       this is children three
       </Great> */}
       <Message/>
+      <Counter/>
       {/* <Welcome/>
       <Hello/>
       <Gallery/> */}
