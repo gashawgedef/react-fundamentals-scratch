@@ -10,16 +10,19 @@ import PackingList from './components/PackingList';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import Toolbar from './components/Toolbar';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
     <div className="App">
-      <Great name="Gashaw Gedef " address="Addis Ababa" >
+
+      <EventBind/>
+      {/* <Great name="Gashaw Gedef " address="Addis Ababa" >
       <p>This is Children</p>
       </Great>
       <FunctionClick/>
       <ClassClick/>
-      <Toolbar/>
+      <Toolbar/> */}
       {/* <Great name="Shibabaw " address="Gondar, Ethiopia">
         this is children two
       </Great>
