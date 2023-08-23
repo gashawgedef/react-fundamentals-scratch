@@ -1,8 +1,10 @@
 function Item({name, isPacked}){
-    if (isPacked) {
-        return <li className="item">{name} ✔</li>;
-      }
-    return <li className="item">{name}</li>;
+    // if (isPacked) {
+    //      return  null;// conditionally returning worth null//<li className="item">{name} ✔</li>;
+
+    //   }
+    // return <li className="item">{name}</li>;
+    return <li className="item">{isPacked?name+'✔':name}</li>
 }
 export default function PackingList() {
     return (
