@@ -7,19 +7,25 @@ import React, { Component } from 'react'
       this.state = {
          'Message':'Hello Gashaw'
       }
+      this.clickHandler=this.clickHandler.bind(this)
     }
-    clickHandler(){
+    // clickHandler(){
+    //     this.setState({
+    //         'Message':'Good By'
+    //     })
+    // }
+    clickHandler=()=>{
         this.setState({
-            'Message':'Good By'
-        })
-    }
-    
+           'Message':'Good By'
+          })
+       }
   render() {
     return (
       <div>
         <div>{this.state.Message}</div>
        {/* <button onClick={this.clickHandler.bind(this)}>Click</button> */}
-       <button onClick={()=>this.clickHandler()}>Click</button>
+       {/* <button onClick={()=>this.clickHandler()}>Click</button> */}
+       <button onClick={this.clickHandler}>Click</button>
       </div>
     )
   }
