@@ -8,6 +8,8 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import PackingList from './components/PackingList';
 import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import Toolbar from './components/Toolbar';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <p>This is Children</p>
       </Great>
       <FunctionClick/>
+      <ClassClick/>
+      <Toolbar/>
       {/* <Great name="Shibabaw " address="Gondar, Ethiopia">
         this is children two
       </Great>
