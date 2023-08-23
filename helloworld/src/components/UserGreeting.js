@@ -5,11 +5,13 @@ import React, { Component } from 'react'
       super(props)
     
       this.state = {
-         isLoggedIn:false
+         isLoggedIn:true
       }
     }
     
   render() {
+
+    return this.state.isLoggedIn&&<div>Welcome gashity</div>
     // return(
     //     this.state.isLoggedIn?
     //     (<div>Welcome gashity</div>):(<div>Welcome Guest</div>)

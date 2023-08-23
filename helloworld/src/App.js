@@ -13,6 +13,7 @@ import Toolbar from './components/Toolbar';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       
       {/* <ParentComponent/> */}
       <UserGreeting/>
+      <NameList/>
        {/*  <EventBind/>
     <Great name="Gashaw Gedef " address="Addis Ababa" >
       <p>This is Children</p>
