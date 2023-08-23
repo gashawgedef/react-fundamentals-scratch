@@ -11,13 +11,17 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import Toolbar from './components/Toolbar';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 
 function App() {
   return (
     <div className="App">
-
-      <EventBind/>
-      {/* <Great name="Gashaw Gedef " address="Addis Ababa" >
+      
+      {/* <ParentComponent/> */}
+      <UserGreeting/>
+       {/*  <EventBind/>
+    <Great name="Gashaw Gedef " address="Addis Ababa" >
       <p>This is Children</p>
       </Great>
       <FunctionClick/>
@@ -33,8 +37,8 @@ function App() {
       <Counter/>
        <Hello/>
       <Gallery/> */}
-      <Welcome name="Gashit" address="Gondar"/>
-      <PackingList/>
+      {/* <Welcome name="Gashit" address="Gondar"/>
+      <PackingList/> */}
      
     
     </div>
