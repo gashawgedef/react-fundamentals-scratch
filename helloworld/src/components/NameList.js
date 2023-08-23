@@ -1,10 +1,42 @@
 import React from 'react'
+import Person from './Person'
 
 function NameList() {
-    const names=['Gashaw','Melkamu','Melos','Chalelign']
-    const NameList=names.map(name=><h1>{name}</h1>)
+
+    const persons=[
+        { 
+            id:1,
+            name:'Gashaw ',
+            age:29,
+            skill:'Angular'
+
+         },
+         { 
+            id:2,
+            name:'Melkamu ',
+            age:29,
+            skill:'React'
+
+         },
+         { 
+            id:3,
+            name:'Melos ',
+            age:29,
+            skill:'Java'
+
+         },
+         { 
+            id:4,
+            name:'Getachew ',
+            age:29,
+            skill:'Cakephp'
+
+         }
+    ]
+//     const names=['Gashaw','Melkamu','Melos','Chalelign']
+    const personList=persons.map(person=><Person person={person}/>)
   return (
-    <div>{ NameList}</div>
+    <div>{ personList}</div>
   )
 }
 
