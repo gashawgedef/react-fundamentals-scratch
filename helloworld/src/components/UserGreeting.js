@@ -5,22 +5,42 @@ import React, { Component } from 'react'
       super(props)
     
       this.state = {
-         isLoggedIn:true
+         isLoggedIn:false
       }
     }
     
   render() {
-    if(this.state.isLoggedIn){
-        return(
-            <div>Welcome gashity</div>
-        )
+    // return(
+    //     this.state.isLoggedIn?
+    //     (<div>Welcome gashity</div>):(<div>Welcome Guest</div>)
+    // )
 
-    }
-    else{
-   return(
-    <div>Welcome Guest</div>
-   )
-    }
+
+    // let message;
+    // if(this.state.isLoggedIn){
+    //     message= <div>Welcome gashity</div>
+    // }
+    // else {
+    //     message= <div>Welcome Guest</div>
+    // }
+    // return(
+    //     <div>{message}</div>
+    // )
+
+
+//     if(this.state.isLoggedIn){
+//         return(
+//             <div>Welcome gashity</div>
+//         )
+
+//     }
+//     else{
+//    return(
+//     <div>Welcome Guest</div>
+//    )
+//     }
+
+
     // return (
     //   <div>
         
