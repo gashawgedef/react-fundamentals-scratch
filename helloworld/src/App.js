@@ -7,6 +7,7 @@ import Gallery from './components/Profile';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import PackingList from './components/PackingList';
+import FunctionClick from './components/FunctionClick';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Great name="Gashaw Gedef " address="Addis Ababa" >
       <p>This is Children</p>
       </Great>
+      <FunctionClick/>
       {/* <Great name="Shibabaw " address="Gondar, Ethiopia">
         this is children two
       </Great>
