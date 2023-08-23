@@ -2,7 +2,7 @@ import React from 'react'
 import Person from './Person'
 
 function NameList() {
-
+    
     const persons=[
         { 
             id:1,
@@ -34,7 +34,7 @@ function NameList() {
          }
     ]
 //     const names=['Gashaw','Melkamu','Melos','Chalelign']
-    const personList=persons.map(person=><Person person={person}/>)
+    const personList=persons.map(person=><Person key={person.id} person={person}/>)
   return (
     <div>{ personList}</div>
   )
