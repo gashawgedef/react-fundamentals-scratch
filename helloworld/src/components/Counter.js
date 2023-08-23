@@ -8,10 +8,13 @@ export class Counter extends Component{
       }
     }
     increament(){
+        
         this.setState({
             count:this.state.count+1
+        },()=>{
+            console.log(this.state.count);
         })
-        console.log(this.state.count);
+      
     }
     render(){
         return(

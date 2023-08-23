@@ -3,13 +3,21 @@ import React from 'react'
 //     return <h1>Gashaw Gedef</h1>
 // }
 
-const Great=(props)=>{
-    console.log(props);
-   return( <>
-    <h1>Hello {props.name} and adress is {props.address}</h1>
-    {props.children}
-    </>
-   ) 
+// const Great=({name, address})=>{
 
-}
+//    return( <>
+//     <h1>Hello {name} and adress is {address}</h1>
+//     </>
+//    ) 
+
+// }
+const Great=(props)=>{
+    const {name,address}=props
+
+    return( <>
+     <h1>Hello {name} and adress is {address}</h1>
+     </>
+    ) 
+ 
+ }
 export default Great

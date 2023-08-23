@@ -10,20 +10,21 @@ import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
-      {/* <Great name="Gashaw Gedef " address="Addis Ababa" >
+      <Great name="Gashaw Gedef " address="Addis Ababa" >
       <p>This is Children</p>
       </Great>
-      <Great name="Shibabaw " address="Gondar, Ethiopia">
+      {/* <Great name="Shibabaw " address="Gondar, Ethiopia">
         this is children two
       </Great>
       <Great name="Tadege " address="Debre Birhan">
       this is children three
-      </Great> */}
+      </Great> 
       <Message/>
       <Counter/>
-      {/* <Welcome/>
-      <Hello/>
+       <Hello/>
       <Gallery/> */}
+      <Welcome name="Gashit" address="Gondar"/>
+     
     
     </div>
   );
