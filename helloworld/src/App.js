@@ -6,6 +6,7 @@ import Hello from './components/Hello';
 import Gallery from './components/Profile';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import PackingList from './components/PackingList';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
        <Hello/>
       <Gallery/> */}
       <Welcome name="Gashit" address="Gondar"/>
+      <PackingList/>
      
     
     </div>
